@@ -66,7 +66,6 @@ Output
 
 Prints a summary table showing customer distribution across segments.
 
-/br
 How to Run the Project
 
 Clone or download the repository.

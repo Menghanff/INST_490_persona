@@ -4,6 +4,7 @@ This project analyzes customer loyalty program data and segments customers based
 
 The analysis is implemented in R using the tidyverse ecosystem.
 
+
 Libraries Used
 
 The following R libraries are required to run the analysis:
@@ -18,10 +19,12 @@ Make sure these libraries are installed before running the script:
 
 install.packages(c("dplyr", "readr", "stringr"))
 
+
 File Structure
 ├── loyalty_segmentation.R        # Main R script for data cleaning and segmentation
 ├── loyaltypointreport.csv        # Input dataset (customer loyalty data)
 ├── README.md                     # Project documentation
+
 
 Script Description
 
@@ -30,6 +33,7 @@ The R script performs the following steps:
 Data Import
 
 Reads loyaltypointreport.csv into R.
+
 
 Data Cleaning
 
@@ -51,9 +55,8 @@ One-Time / First-Time Buyers
 
 Bargain Hunters / Reward Users
 
-Dormant Members
+Silent Supporters
 
-Other
 
 Summary Statistics
 
@@ -62,6 +65,7 @@ Calculates the number of customers, average spending, average points, and percen
 Output
 
 Prints a summary table showing customer distribution across segments.
+
 
 How to Run the Project
 
